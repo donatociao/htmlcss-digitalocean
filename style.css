@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 .upper-navbar {
   padding: 10px;
@@ -47,6 +48,7 @@
 .navbar-brand img {
   width: 160px;
   height: auto;
+  margin-left: 10px;
 }
 
 .bg-white {
@@ -57,13 +59,26 @@
   margin-left: 30px;
 }
 
-.navbar-nav li a {
+.navbar-default .navbar-nav>li>a {
   color: #010e28;
   padding: 25px;
+  font-size: 1.5rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #0069ff;
+
 }
 
 .sign-up {
   color: #0069ff;
+  border: 2px solid #0069ff;
+  margin-top: 10px;
+}
+
+.navbar-form .btn:hover {
+  color: white;
+  background-color: #0069ff;
   border: 2px solid #0069ff;
 }
 
