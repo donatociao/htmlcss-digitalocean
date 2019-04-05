@@ -197,3 +197,12 @@ font-size: 2rem;
   border-left: 2px solid #0069ff;
   background-color:  rgba(189, 195, 199, 0.2);
 }
+
+.slide-img {
+  width: 600px;
+  height: auto;
+}
+
+.slide-bg {
+  background-color: #f3f5f9;
+}
